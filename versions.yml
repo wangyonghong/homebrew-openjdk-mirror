@@ -1,0 +1,17 @@
+# adoptopenjdk8
+- cask_name: adoptopenjdk8
+  version: 8u265b01
+  sha256: db8b19f943bf96774a805b646b2c0ddd532123391e2e3873fe3720558e6091fe
+  tuna-url: https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/mac/OpenJDK8U-jdk_x64_mac_hotspot_8u265b01.pkg
+  name: AdoptOpenJDK 8
+  filename: OpenJDK8U-jdk_x64_mac_hotspot_8u265b01.pkg
+  identifier: net.adoptopenjdk.8.jdk
+
+# adoptopenjdk11
+- cask_name: adoptopenjdk11
+  version: 11.0.8_10
+  sha256: c9ce3e78a7ec7f8c23041af63a66bfe18bbf75c7bfa8f8a51148a098f3653699
+  tuna-url: https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/mac/OpenJDK11U-jdk_x64_mac_hotspot_11.0.8_10.pkg
+  name: AdoptOpenJDK 11
+  filename: OpenJDK11U-jdk_x64_mac_hotspot_11.0.8_10.pkg
+  identifier: net.adoptopenjdk.11.jdk
