@@ -12,8 +12,8 @@ cask "tuna-adoptopenjdk13" do
   pkg "OpenJDK13U-jdk_x64_mac_hotspot_13.0.2_8.pkg"
 
   postflight do
-    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.13"], print_stdout: true
+    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.13.jdk"], print_stdout: true
   end
 
-  uninstall pkgutil: "net.adoptopenjdk.13"
+  uninstall pkgutil: "net.adoptopenjdk.13.jdk"
 end

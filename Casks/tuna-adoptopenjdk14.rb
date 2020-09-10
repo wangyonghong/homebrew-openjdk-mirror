@@ -12,8 +12,8 @@ cask "tuna-adoptopenjdk14" do
   pkg "OpenJDK14U-jdk_x64_mac_hotspot_14.0.2_12.pkg"
 
   postflight do
-    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.14"], print_stdout: true
+    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.14.jdk"], print_stdout: true
   end
 
-  uninstall pkgutil: "net.adoptopenjdk.14"
+  uninstall pkgutil: "net.adoptopenjdk.14.jdk"
 end

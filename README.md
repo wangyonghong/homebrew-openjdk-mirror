@@ -2,13 +2,14 @@
 
 ## 如何安装
 
-`brew install wangyonghong/openjdk/<formula>`
+`brew install wangyonghong/openjdk-mirror/<formula>`
 
-Or `brew tap wangyonghong/openjdk` and then `brew install <formula>`.
+Or `brew tap wangyonghong/openjdk-mirror` and then `brew install <formula>`.
 
 例子：
 
 ```
+brew tap wangyonghong/openjdk-mirror
 brew search openjdk
 brew cask install adoptopenjdk8
 ```

@@ -12,8 +12,8 @@ cask "tuna-adoptopenjdk12-openj9-large" do
   pkg "OpenJDK12U-jdk_x64_mac_openj9_macosXL_12.0.2_10_openj9-0.15.1.pkg"
 
   postflight do
-    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.12-openj9"], print_stdout: true
+    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.12-openj9.jdk"], print_stdout: true
   end
 
-  uninstall pkgutil: "net.adoptopenjdk.12-openj9"
+  uninstall pkgutil: "net.adoptopenjdk.12-openj9.jdk"
 end

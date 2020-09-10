@@ -32,7 +32,7 @@ for ver in range(8, 15):
       filename = binary['installer']['name']
       identifier = 'net.adoptopenjdk.' + str(ver) \
         + ('' if jvm_impl == 'hotspot' else '-openj9') \
-        + ('' if binary['image_type'] == 'jdk' else '.jre')
+        + ('.jdk' if binary['image_type'] == 'jdk' else '.jre')
       
       cask_tmp = cask.replace('{cask_name}', 'tuna-' + cask_name)\
         .replace('{version}', version)\

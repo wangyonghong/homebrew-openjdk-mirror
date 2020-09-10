@@ -12,8 +12,8 @@ cask "tuna-adoptopenjdk8" do
   pkg "OpenJDK8U-jdk_x64_mac_hotspot_8u265b01.pkg"
 
   postflight do
-    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.8"], print_stdout: true
+    system_command "/usr/sbin/pkgutil", args: ["--pkg-info", "net.adoptopenjdk.8.jdk"], print_stdout: true
   end
 
-  uninstall pkgutil: "net.adoptopenjdk.8"
+  uninstall pkgutil: "net.adoptopenjdk.8.jdk"
 end
