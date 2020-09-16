@@ -1,5 +1,7 @@
 # Homebrew Tap [wangyonghong/openjdk-mirror](https://github.com/wangyonghong/homebrew-openjdk-mirror)
 
+Last Update Time: 2020-09-16 14:35:06
+
 ## 如何安装
 
 ```shell
