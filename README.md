@@ -2,6 +2,8 @@
 
 Last Update Time: 2020-09-16 14:35:06
 
+Homebrew Tap [wangyonghong/openjdk-mirror](https://github.com/wangyonghong/homebrew-openjdk-mirror) 是为了使用 Homebrew 安装 AdoptOpenJDK 更加快速而维护的一个 Homebrew Tap。[官方的 Homebrew Tap](https://github.com/AdoptOpenJDK/homebrew-openjdk) 下载比较慢，而此 Homebrew Tap 镜像的来源是清华的镜像 [TUNA AdoptOpenJDK](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/)，下载相对会快很多。
+
 ## 如何安装
 
 ```shell
@@ -56,7 +58,3 @@ brew cask install tuna-adoptopenjdk8
 # 卸载
 brew cask uninstall tuna-adoptopenjdk8
 ```
-
-## Todo
-
-- 每天自动更新发 pull request
