@@ -1,4 +1,4 @@
-name: CI
+name: UPDATE-CI
 
 on:
   push:

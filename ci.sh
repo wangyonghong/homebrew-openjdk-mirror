@@ -6,12 +6,10 @@ git config --global user.name 'wangyonghong'
 
 git checkout update
 
-python update_casks.py
+python3 update_casks.py
 
 git add .
 git commit -m "update"
 git push -u origin update
-
-hub pull-request
 
 
