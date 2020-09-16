@@ -14,3 +14,5 @@ jobs:
       uses: repo-sync/pull-request@v2.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        source_branch: ""
+        destination_branch: "master"
