@@ -46,6 +46,12 @@ tuna-adoptopenjdk14-openj9
 tuna-adoptopenjdk14-openj9-jre
 tuna-adoptopenjdk14-openj9-jre-large
 tuna-adoptopenjdk14-openj9-large
+tuna-adoptopenjdk15 ✔
+tuna-adoptopenjdk15-jre
+tuna-adoptopenjdk15-openj9
+tuna-adoptopenjdk15-openj9-jre
+tuna-adoptopenjdk15-openj9-jre-large
+tuna-adoptopenjdk15-openj9-large
 tuna-adoptopenjdk8
 tuna-adoptopenjdk8-jre
 tuna-adoptopenjdk8-openj9
