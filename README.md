@@ -1,6 +1,6 @@
 # Homebrew Tap [wangyonghong/openjdk-mirror](https://github.com/wangyonghong/homebrew-openjdk-mirror)
 
-Last Update Time: 2021-01-22 01:16:07
+Last Update Time: 2021-01-23 01:15:18
 
 Homebrew Tap [wangyonghong/openjdk-mirror](https://github.com/wangyonghong/homebrew-openjdk-mirror) 是为了使用 Homebrew 安装 AdoptOpenJDK 更加快速而维护的一个 Homebrew Tap。[官方的 Homebrew Tap](https://github.com/AdoptOpenJDK/homebrew-openjdk) 下载比较慢，而此 Homebrew Tap 镜像的来源是清华的镜像 [TUNA AdoptOpenJDK](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/)，下载相对会快很多。
 
