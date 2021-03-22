@@ -3,8 +3,8 @@
 git pull origin master
 git pull origin update
 
-git config --global user.email 'yonghongwang@163.com'
-git config --global user.name 'wangyonghong'
+git config --local user.email 'yonghongwang@163.com'
+git config --local user.name 'wangyonghong'
 
 git checkout update
 git merge master --allow-unrelated-histories
