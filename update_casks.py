@@ -4,7 +4,7 @@ import requests
 with open('Templates/adoptopenjdk.tmpl.rb') as f:
   cask = f.read()
 
-for ver in range(8, 17):
+for ver in range(8, 18):
   for jvm_impl in ('hotspot', 'openj9'):
     r = requests.get(f"https://api.adoptopenjdk.net/v3/assets/latest/{ver}/{jvm_impl}", timeout=(5, 10))
     r.raise_for_status()
